@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgray;
+}
+
+h1 {
+  font-family: 'Ribeye', cursive;
+  text-align: center;
+}
+
+.image{
+  border-radius: 100px;
+  padding: 1px;
+  margin: 10px;
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
